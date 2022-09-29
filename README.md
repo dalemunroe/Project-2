@@ -22,7 +22,8 @@ project
 |__ Output/        # contains cleaned data
 |   |__income_data.csv # cleaned data from ABS for median income
 |   |__solar_metadata_WAonly_df.csv      # cleaned data from Clean Energy Regulator
-|   |__
+|   |__suburb_prices.csv # cleaned housing data from Kaggle
+|   |__postcode_metadata_WAonly_df.csv # cleaned post code data
 ```
 
 # SQL Database
