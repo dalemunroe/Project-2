@@ -10,14 +10,16 @@ Contributors - Bharat Guturi, Caroline Badocha, Dale Munroe
 project
 |__ .gitignore          # gitignore file
 |__ Project 2.ipynb             # cleaning notebook that takes in the raw data and outputs cleaned data for analysis
+|__ suburb_data.ipynb             # cleaning note book to create the post code data
 |
 |__ Resources/        # contains data downloaded from the datasets below
 |
 |__ Table_creation_scripts/     # contains the scripts for creating SQL tables
 |   |__1_Project_2.sql
-|   |__2_house_prices.sql
-|   |__3_Median_Income.sql
-|   |__4_solar_metadata_waonly.sql
+|   |__2_postcode_metadata_waonly.sql
+|   |__3_house_prices.sql
+|   |__4_Median_Income.sql
+|   |__5_solar_metadata_waonly.sql
 |
 |__ Output/        # contains cleaned data
 |   |__income_data.csv # cleaned data from ABS for median income
