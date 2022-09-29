@@ -11,9 +11,15 @@ project
 |__ .gitignore          # gitignore file
 |__ clean_abs_data.ipynb      # cleaning notebook that takes in the raw data and outputs cleaned data for analysis
 |__ project_2_solar.ipynb      # cleaning notebook that takes in the raw data and outputs cleaned data for analysis
-|__ @NAME TO ADD.ipynb
+|__ Project 2.ipynb             # cleaning notebook that takes in the raw data and outputs cleaned data for analysis
 |
 |__ Resources/        # contains data downloaded from the datasets below
+|
+|__ Table_creation_scripts/     # contains the scripts for creating SQL tables
+|   |__1_Project_2.sql
+|   |__2_house_prices.sql
+|   |__3_Median_Income.sql
+|   |__4_solar_metadata_waonly.sql
 |
 |__ Output/        # contains cleaned data
 |   |__income_data.csv # cleaned data from ABS for median income
@@ -21,13 +27,19 @@ project
 |   |__
 ```
 
-# Usage
+# SQL Database
 
 ```
 # create connection to postgres
 Create .env file with the following details:
           db_UserName: <your database username>
           db_Password: <your database password>
+
+# create tables
+Using the script in the Table Creation Scripts folder run the scripts in their numerical order
+
+# input data
+Once the data is created then the python scripts can be run to upload the data into SQL
 ```
 
 # Datasets
