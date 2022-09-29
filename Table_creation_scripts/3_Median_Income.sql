@@ -1,0 +1,70 @@
+-- Table: public.Median Income
+
+-- DROP TABLE IF EXISTS public."Median Income";
+
+CREATE TABLE IF NOT EXISTS public."Median Income"
+(
+    poa_code_2021 integer NOT NULL,
+    median_age_persons integer NOT NULL,
+    median_tot_prsnl_inc_weekly integer NOT NULL,
+    median_tot_fam_inc_weekly integer NOT NULL,
+    median_tot_hhd_inc_weekly integer NOT NULL,
+    negative_nil_income_tot integer NOT NULL,
+    hi_1_149_tot integer NOT NULL,
+    hi_150_299_tot integer NOT NULL,
+    hi_300_399_tot integer NOT NULL,
+    hi_400_499_tot integer NOT NULL,
+    hi_500_649_tot integer NOT NULL,
+    hi_650_799_tot integer NOT NULL,
+    hi_800_999_tot integer NOT NULL,
+    hi_1000_1249_tot integer NOT NULL,
+    hi_1250_1499_tot integer NOT NULL,
+    hi_1500_1749_tot integer NOT NULL,
+    hi_1750_1999_tot integer NOT NULL,
+    hi_2000_2499_tot integer NOT NULL,
+    hi_2500_2999_tot integer NOT NULL,
+    hi_3000_3499_tot integer NOT NULL,
+    hi_3500_3999_tot integer NOT NULL,
+    hi_4000_more_tot integer NOT NULL,
+    partial_income_stated_tot integer NOT NULL,
+    all_incomes_not_stated_tot integer NOT NULL,
+    tot_family_households integer NOT NULL,
+    tot_non_family_households integer NOT NULL,
+    m_neg_nil_income_tot integer NOT NULL,
+    m_1_149_tot integer NOT NULL,
+    m_150_299_tot integer NOT NULL,
+    m_300_399_tot integer NOT NULL,
+    m_400_499_tot integer NOT NULL,
+    m_500_649_tot integer NOT NULL,
+    m_650_799_tot integer NOT NULL,
+    m_800_999_tot integer NOT NULL,
+    m_1000_1249_tot integer NOT NULL,
+    m_1250_1499_tot integer NOT NULL,
+    m_1500_1749_tot integer NOT NULL,
+    m_1750_1999_tot integer NOT NULL,
+    m_2000_2999_tot integer NOT NULL,
+    m_3000_3499_tot integer NOT NULL,
+    m_3500_more_tot integer NOT NULL,
+    m_pi_ns_ns_tot integer NOT NULL,
+    f_neg_nil_income_tot integer NOT NULL,
+    f_1_149_tot integer NOT NULL,
+    f_150_299_tot integer NOT NULL,
+    f_300_399_tot integer NOT NULL,
+    f_400_499_tot integer NOT NULL,
+    f_500_649_tot integer NOT NULL,
+    f_650_799_tot integer NOT NULL,
+    f_800_999_tot integer NOT NULL,
+    f_1000_1249_tot integer NOT NULL,
+    f_1250_1499_tot integer NOT NULL,
+    f_1500_1749_tot integer NOT NULL,
+    f_1750_1999_tot integer NOT NULL,
+    f_2000_2999_tot integer NOT NULL,
+    f_3000_3499_tot integer NOT NULL,
+    f_3500_more_tot integer NOT NULL,
+    f_pi_ns_ns_tot integer NOT NULL
+)
+
+TABLESPACE pg_default;
+
+ALTER TABLE IF EXISTS public."Median Income"
+    OWNER to postgres;
