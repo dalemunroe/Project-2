@@ -21,6 +21,15 @@ project
 |   |__
 ```
 
+# Usage
+
+```
+# create connection to postgres
+Create .env file with the following details:
+          db_UserName: <your database username>
+          db_Password: <your database password>
+```
+
 # Datasets
 |No|Source|Link|
 |-|-|-|
