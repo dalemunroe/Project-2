@@ -80,3 +80,4 @@ In the data from Kaggle it had all the sales of houses within Perth and it was c
 * Import csv for the house sales
 * From the uploaded dataframe I took all the relevant columns
 * Changed the headers to lower case
+* The data was then exported into a new csv file.
