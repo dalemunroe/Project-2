@@ -9,8 +9,6 @@ Contributors - Bharat Guturi, Caroline Badocha, Dale Munroe
 ```
 project
 |__ .gitignore          # gitignore file
-|__ clean_abs_data.ipynb      # cleaning notebook that takes in the raw data and outputs cleaned data for analysis
-|__ project_2_solar.ipynb      # cleaning notebook that takes in the raw data and outputs cleaned data for analysis
 |__ Project 2.ipynb             # cleaning notebook that takes in the raw data and outputs cleaned data for analysis
 |
 |__ Resources/        # contains data downloaded from the datasets below
